@@ -135,9 +135,6 @@ public class CustomPopWindow implements PopupWindow.OnDismissListener{
             popupWindow.setTouchInterceptor(mOnTouchListener);
         }
         popupWindow.setTouchable(mTouchable);
-
-
-
     }
 
     private PopupWindow build(){
